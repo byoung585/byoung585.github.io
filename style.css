@@ -31,7 +31,7 @@ header .navlinks li a {
     text-align: center;
 }
 a:link{
-    color: rgb(77, 61, 61);
+    color: rgb(99, 110, 206);
     text-decoration: none;
     font-weight: bold;
 }
@@ -39,7 +39,7 @@ a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: rgb(77, 61, 61);
+    color: rgb(99, 110, 206);
 }
 body {
     width:85%;
@@ -57,6 +57,9 @@ body {
 div.clearfix {
     clear: both;
 }
-h1, h2 {
+h1, h2, h3{
     color: rgb(39, 35, 35);
+}
+#contact{
+    text-align: center;
 }
