@@ -57,9 +57,32 @@ body {
 div.clearfix {
     clear: both;
 }
-h1, h2, h3{
+h1, h2, h3 {
     color: rgb(39, 35, 35);
 }
-#contact{
+#contact {
     text-align: center;
 }
+#resume {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#resume ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#resume ul li {
+    text-align: left;
+}
+#resume h2 {
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+    text-align: left;
+}   
