@@ -50,8 +50,6 @@ body {
 }
 #headshot{
     float: right;
-    width: 25em;
-    height: 25em;
     border-radius: 50%;
 }
 div.clearfix {
@@ -71,10 +69,10 @@ h1, h2, h3 {
 }
 #resume ul {
     display: flex;
-    list-style: none;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 0;
 }
 #resume ul li {
     text-align: left;
@@ -85,4 +83,7 @@ h1, h2, h3 {
 .bold {
     font-weight: bold;
     text-align: left;
+}
+.no_bullet {
+    list-style-type: none;
 } 
