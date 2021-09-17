@@ -58,7 +58,7 @@ div.clearfix {
 h1, h2, h3 {
     color: rgb(39, 35, 35);
 }
-#contact {
+#contact, #teaching {
     text-align: center;
 }
 #resume {
