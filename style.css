@@ -51,6 +51,7 @@ body {
 #headshot{
     float: right;
     border-radius: 50%;
+    max-width: 40%;
 }
 div.clearfix {
     clear: both;
